@@ -29,6 +29,14 @@ SELECT SUM(wage) AS som_loon_alle_spelers_fc_groningen FROM players WHERE club =
 135000	
 
 -- Opdracht 4
+127.0.0.1/mod-mysql-basic-fifa2018/players/		http://localhost/phpmyadmin/db_sql.php?db=mod-mysql-basic-fifa2018
+ Weergave van records 0 -  0 (1 totaal, Query duurde 0,0012 seconden.)
+
+SELECT Count(*) AS test_test FROM players WHERE club="Manchester City" OR club="Manchester United"
+
+
+
+67	
 
 -- Opdracht 5
 127.0.0.1/mod-mysql-basic-fifa2018/players/		http://localhost/phpmyadmin/db_sql.php?db=mod-mysql-basic-fifa2018
